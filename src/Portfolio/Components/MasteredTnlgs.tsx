@@ -69,7 +69,7 @@ const technologies: Technology[] = [
   { name: "Redis", icon: "redis", category: "database", color: "#DC382D" },
 
   
-  { name: "Kotlin", icon: "kotlin", category: "mobile", color: "#7F52FF" },
+  
 
   
 
@@ -104,7 +104,7 @@ export default function MasteresTnlgs() {
     <div>
       <section className=" px-6 md:px-20 py-10">
         <h2 className="text-2xl font-semibold text-sky-400 mb-4">
-          Tegnologias dominadas
+           Tecnologías dominadas
         </h2>
         <div className="mt-6 flex flex-wrap md:flex-nowrap  md:gap-9 gap-4  mb-10  ">
           <button

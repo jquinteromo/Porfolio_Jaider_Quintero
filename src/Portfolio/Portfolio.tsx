@@ -20,7 +20,7 @@ export default function Portafolio() {
       <MasteresTnlgs></MasteresTnlgs>
       
       <footer className="text-center text-slate-500 py-6 text-xs">
-        © 2025 Jaider Quintero. Portafolio personal.
+        © 2025 Jaider Quintero. 
       </footer>
     </div>
   );

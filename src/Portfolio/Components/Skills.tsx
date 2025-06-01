@@ -1,8 +1,4 @@
-import { Hammer,
-  Zap,
-  BookOpen,
-  MessageCircle,Users} from "lucide-react";
-
+import { Hammer, Zap, BookOpen, MessageCircle, Users } from "lucide-react";
 
 interface SoftSkill {
   id: string;
@@ -61,11 +57,10 @@ const softSkills: SoftSkill[] = [
   },
 ];
 
-
-export default function Skills (){
-    return(
-        <div>
-             <section className="px-6 md:px-20 py-10">
+export default function Skills() {
+  return (
+    <div>
+      <section className="px-6 md:px-20 py-10">
         <h2 className="text-2xl font-semibold text-sky-400 mb-4">
           Habilidades
         </h2>
@@ -74,9 +69,8 @@ export default function Skills (){
             return (
               <div
                 key={skill.id}
-                className=" cursor-pointer md:h-24 md:w-52 h-[72px] relative  mt-3 rounded-2xl md:p-2 p-2 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 group-hover:bg-white  "
+                className=" md:h-24 md:w-52 h-[72px] relative  mt-3 rounded-2xl md:p-2 p-2 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 group-hover:bg-white  "
               >
-              
                 <div className="absolute  bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 "></div>
 
                 <div className="absolute  w-20 h-20 opacity-10 ">
@@ -97,15 +91,12 @@ export default function Skills (){
                   <div className="mb-4">
                     <div className="h-1 bg-gradient-to-r rounded-full transition-all duration-500"></div>
                   </div>
-
                 </div>
               </div>
             );
           })}
-          
         </div>
       </section>
-
-        </div>
-    )
+    </div>
+  );
 }
