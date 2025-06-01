@@ -165,7 +165,7 @@ export default function Projects() {
 
         {selectedProject && (
           <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-2 sm:p-4">
-            <div className="bg-white rounded-2xl w-full max-w-4xl max-h-screen overflow-y-auto">
+            <div className="bg-[#0f172a] rounded-2xl w-full max-w-4xl max-h-screen overflow-y-auto">
            
               <div className="relative h-48 md:h-64 overflow-hidden rounded-t-2xl">
                 <img
@@ -204,7 +204,7 @@ export default function Projects() {
 
            
               <div className="p-4 md:p-8 text-sm md:text-base leading-relaxed bg">
-                <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                <h3 className="text-lg md:text-xl font-bold text-sky-400 mb-3 flex items-center gap-2">
                   Video Demo
                 </h3>
                 <div className="flex justify-center bg-black md:w-96 md:h-60 mb-10 ">
@@ -221,16 +221,16 @@ export default function Projects() {
 
                 
                 <div className="mb-6 md:mb-8 ">
-                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                  <h3 className="text-lg md:text-xl font-bold text-sky-400 mb-3 flex items-center gap-2">
                     <Code className="w-5 h-5 text-blue-500" />
                     Descripción del Proyecto
                   </h3>
-                  <p className="text-gray-600">{selectedProject.description}</p>
+                  <p className="text-white">{selectedProject.description}</p>
                 </div>
 
               
                 <div className="mb-6 md:mb-8">
-                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-3">
+                  <h3 className="text-lg md:text-xl font-bold text-sky-400 mb-3">
                     Stack Tecnológico
                   </h3>
                   <div className="flex flex-wrap gap-3">
@@ -247,14 +247,14 @@ export default function Projects() {
 
               
                 <div className="mb-6 md:mb-8">
-                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-3">
+                  <h3 className="text-lg md:text-xl font-bold text-sky-400 mb-3">
                     Características Principales
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {selectedProject.features.map((feature, index) => (
                       <div key={index} className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
-                        <span className="text-gray-600">{feature}</span>
+                        <span className="text-white">{feature}</span>
                       </div>
                     ))}
                   </div>
