@@ -10,7 +10,7 @@ El sitio está cuidadosamente estructurado en secciones claras, con un diseño m
 Vista previa
 
 
-![Vista previa](Images-preview/preview.png) 
+![Vista previa](/img_preview/preview.png) 
 
 
 ---
