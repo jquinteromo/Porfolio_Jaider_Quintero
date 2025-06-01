@@ -80,13 +80,13 @@ export default function Projects() {
           
           <button
             onClick={scrollLeft}
-            className={`${projects.length > 3 ? 'visible' : 'hidden'} absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 hover:bg-white/20 transition-colors`} 
+            className={`${projects.length > 3 ? 'md:visible' : 'md:hidden'} ${projects.length > 2 ? 'visible' : 'hidden'} absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 hover:bg-white/20 transition-colors`} 
           >
             <ChevronLeft className={`w-6 h-6 text-white`} />
           </button>
           <button
             onClick={scrollRight}
-            className={`${projects.length > 3 ? 'visible': 'hidden'} absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 hover:bg-white/20 transition-colors`}
+            className={`${projects.length > 3 ? 'md:visible': 'md:hidden'} ${projects.length > 2 ? 'visible' : 'hidden'} absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 hover:bg-white/20 transition-colors`}
           >
             <ChevronRight className="w-6 h-6 text-white" />
           </button>
