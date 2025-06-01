@@ -10,7 +10,8 @@ El sitio está cuidadosamente estructurado en secciones claras, con un diseño m
 Vista previa
 
 
-![Vista previa](Images-preview/preview.png) 
+![Vista previa](https://raw.githubusercontent.com/jquinteromo/Porfolio_Jaider_Quintero/main/public/img_preview/preview.png)
+ 
 
 
 ---
