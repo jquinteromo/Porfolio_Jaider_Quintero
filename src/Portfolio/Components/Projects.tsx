@@ -29,6 +29,31 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: "Sistema de Películas",
+    title: "Sistema de Películas",
+    shortDescription:
+      " MoodFlix – Plataforma de recomendación de películas basada en el estado de ánimo. ",
+    image: "/Images_projects/moodflix/M F.png",
+    description:
+      "MoodFlix es una plataforma web interactiva diseñada para recomendar películas según el estado de ánimo del usuario. A través de una experiencia intuitiva, el usuario selecciona una emoción y recibe sugerencias de películas cuidadosamente filtradas que se alinean con cómo se siente o quiere sentirse.",
+    stack: ["React", "TypeScript","TailwindCSS","Vite","React Router","Lucide Icons" ],
+    githubUrl: "https://github.com/jquinteromo/moodflix.git",
+    liveUrl: "https://moodflix-ten.vercel.app/",
+   videoUrl: "https://www.youtube.com/embed/clsZ9lvJ4DA",
+    category: "Frontend",
+    date: "2025",
+    teamSize: 1,
+    features: [
+      "Filtros personalizados por estado emocional.",
+      "Visualización de trailers, descripciones, categorías y detalles técnicos.",
+      "Sección de catálogos: estrenos, populares y mejor valoradas.",
+      " Funcionalidad para agregar películas a una lista de favoritas.",
+      "Sección Mi list.",
+      "Búsqueda dinámica con resultados instantáneos al escribir.",
+       "Detalle completo de cada película con opción de dejar reseñas.",
+    ],
+  },
+  {
     id: "Blog Caricaturesco",
     title: "Blog de Caricaturas",
     shortDescription:
